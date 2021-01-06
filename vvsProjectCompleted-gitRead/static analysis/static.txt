@@ -1,0 +1,11 @@
+HTML:
+-empty tag:
+	-in resultPage.html a detectat empty tags si imi zicea ca nu vor merge in fiecare browser. am testat cu chrome, brave si firefox, merge perfect si am decis sa nu schimb
+-Unknown html tag atribute:
+	-a detetctat tagurile de la thymeleaf.
+
+JAVA:
+-declaration can have final modifier: mia zis sa declar dataServiceu ca final in controller, am schimbat si am declarat ca final.
+-method always returns same value: in greeting controller functiile pentru get si post mappings
+-imports: warninguri pentru unused imports: am sters ceea ce nu se foloseste
+-probable bugs: in teste ceva valori sunt always null; am introdus in logica codului un caz pentru acesta
